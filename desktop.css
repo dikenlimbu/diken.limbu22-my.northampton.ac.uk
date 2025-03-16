@@ -1,0 +1,58 @@
+nav{
+    grid-area: nav;
+    background-color: rgb(221, 221, 151);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(10, 6, 6);
+}
+
+nav li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+}
+header {
+    grid-area: header;
+    background-color: aqua;
+    padding: ien;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(115, 233, 115);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    grid-area: aside;
+    background-color: purple;
+}
+
+footer{
+    grid-area: footer;
+    background-color: darkorange;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+
+    
+    "header header header"
+        "nav nav nav"
+        ". main ."
+        "footer footer footer"
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
