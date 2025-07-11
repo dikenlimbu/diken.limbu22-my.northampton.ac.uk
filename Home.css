@@ -5,4 +5,10 @@ Main{
     font-size: medium;
 }
 
-A
+aside{
+    background-color: rgb(168, 49, 36);
+}
+
+footer{
+    background-color: seagreen;
+}
